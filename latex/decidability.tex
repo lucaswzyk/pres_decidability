@@ -1,0 +1,59 @@
+\documentclass[ngerman,aspectratio=169]{beamer}
+\usepackage[utf8]{luainputenc}
+\usepackage[TS1,T1]{fontenc}
+\usepackage{babel}
+\usetheme[pagenum,navbar,ddc]{tud}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{tikz}
+
+\newcommand{\theory}[1]{\text{Th(} #1 \text{)}}
+\newcommand{\lang}[1]{\text{L(}#1{)}}
+
+\title{Decidability\protect\\\mdseries of Logical Theories\strut}
+\subtitle{Proseminar Theoretical Computer Science}
+\author{Lucas Waclawczyk}
+
+\newcommand*\inmm[1]{\pgfmathsetmacro\inmmwert{#1 / 1mm}\inmmwert}
+\makeatletter
+\newcommand*\inpt[1]{\setlength\@tempdima{#1}\the\@tempdima}
+\makeatother
+
+\AtBeginSection[]{\partpage{\usebeamertemplate***{part page}}}
+\begin{document}
+	\mode<presentation>{\setbeamertemplate{tud background}[image/shaded]{Seminarraum.jpg}{0.7}}
+	\maketitle
+	
+	\mode<presentation>{\setbeamertemplate{page number in footline}[frame][text and total]}
+	\frame{\frametitle{Inhalt}\tableofcontents}
+	
+	\section{Basics}
+	
+	\subsection{Automata}
+	\begin{frame}{Automata}
+	\end{frame}
+
+	\subsection{Turing Machines}
+	\begin{frame}{Turing Machines}
+	\end{frame}
+
+	\subsection{First-Order Logic}
+	\begin{frame}{First-Order Logic}
+	\end{frame}
+
+	\section{$ \theory{\mathbb{N}, +} $ -- A Decidable Theory}
+	\begin{frame}{Theorem 1}
+		$ \theory{\mathbb{N}, +} $ is decidable
+		
+		\vspace{1cm}
+		\uncover<2->{i.e., there is an algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
+	\end{frame}
+
+	\section{Th($ \mathbb{N}, +, \times $) -- An Undecidable Theory}
+	\begin{frame}{Theorem 1}
+		$ \theory{\mathbb{N}, +, \times} $ is undecidable
+		
+		\vspace{1cm}
+		\uncover<2->{i.e., there is no algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
+	\end{frame}
+\end{document}
