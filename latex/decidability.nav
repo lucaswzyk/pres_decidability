@@ -7,35 +7,66 @@
 \headcommand {\sectionentry {1}{Basics}{3}{Basics}{0}}
 \headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Automata}}
-\headcommand {\slideentry {1}{1}{1}{4/4}{Automata}{0}}
-\headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Turing Machines}}
-\headcommand {\slideentry {1}{2}{1}{5/5}{Turing Machines}{0}}
-\headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{6}{First-Order Logic}}
-\headcommand {\slideentry {1}{3}{1}{6/6}{First-Order Logic}{0}}
+\headcommand {\slideentry {1}{0}{2}{4/5}{}{0}}
+\headcommand {\beamer@framepages {4}{5}}
+\headcommand {\slideentry {1}{0}{3}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@sectionpages {3}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\sectionentry {2}{$ \text {Th(} \mathbb {N}, + \text {)} $ -- A Decidable Theory}{7}{$ \text {Th(} \mathbb {N}, + \text {)} $ -- A Decidable Theory}{0}}
-\headcommand {\slideentry {2}{0}{1}{7/7}{}{0}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {2}{0}{2}{8/9}{}{0}}
-\headcommand {\beamer@framepages {8}{9}}
-\headcommand {\beamer@sectionpages {7}{9}}
-\headcommand {\beamer@subsectionpages {7}{9}}
-\headcommand {\sectionentry {3}{Th($ \mathbb {N}, +, \times $) -- An Undecidable Theory}{10}{Th($ \mathbb {N}, +, \times $) -- An Undecidable Theory}{0}}
-\headcommand {\slideentry {3}{0}{1}{10/10}{}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {3}{0}{2}{11/12}{}{0}}
-\headcommand {\beamer@framepages {11}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {10}{12}}
-\headcommand {\beamer@sectionpages {10}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\gdef \inserttotalframenumber {10}}
-\headcommand {\tudbeamersetpagenumberwidths {10}{13}}
+\headcommand {\slideentry {1}{0}{4}{7/12}{}{0}}
+\headcommand {\beamer@framepages {7}{12}}
+\headcommand {\slideentry {1}{0}{5}{13/14}{}{0}}
+\headcommand {\beamer@framepages {13}{14}}
+\headcommand {\beamer@sectionpages {3}{14}}
+\headcommand {\beamer@subsectionpages {3}{14}}
+\headcommand {\sectionentry {2}{$ \text {Th}\left ( \mathbb {N}, + \right ) $ -- A Decidable Theory}{15}{$ \text {Th}\left ( \mathbb {N}, + \right ) $ -- A Decidable Theory}{0}}
+\headcommand {\slideentry {2}{0}{1}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{0}{2}{16/17}{}{0}}
+\headcommand {\beamer@framepages {16}{17}}
+\headcommand {\slideentry {2}{0}{3}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{0}{4}{19/20}{}{0}}
+\headcommand {\beamer@framepages {19}{20}}
+\headcommand {\slideentry {2}{0}{5}{21/23}{}{0}}
+\headcommand {\beamer@framepages {21}{23}}
+\headcommand {\slideentry {2}{0}{6}{24/28}{}{0}}
+\headcommand {\beamer@framepages {24}{28}}
+\headcommand {\beamer@sectionpages {15}{28}}
+\headcommand {\beamer@subsectionpages {15}{28}}
+\headcommand {\sectionentry {3}{$ \text {Th}\left ( \mathbb {N}, +, \times \right ) $ -- An Undecidable Theory}{29}{$ \text {Th}\left ( \mathbb {N}, +, \times \right ) $ -- An Undecidable Theory}{0}}
+\headcommand {\slideentry {3}{0}{1}{29/29}{}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {3}{0}{2}{30/31}{}{0}}
+\headcommand {\beamer@framepages {30}{31}}
+\headcommand {\slideentry {3}{0}{3}{32/38}{}{0}}
+\headcommand {\beamer@framepages {32}{38}}
+\headcommand {\slideentry {3}{0}{4}{39/41}{}{0}}
+\headcommand {\beamer@framepages {39}{41}}
+\headcommand {\beamer@sectionpages {29}{41}}
+\headcommand {\beamer@subsectionpages {29}{41}}
+\headcommand {\sectionentry {4}{Gödel's Incompleteness Theorem}{42}{Gödel's Incompleteness Theorem}{0}}
+\headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {4}{0}{2}{43/45}{}{0}}
+\headcommand {\beamer@framepages {43}{45}}
+\headcommand {\slideentry {4}{0}{3}{46/48}{}{0}}
+\headcommand {\beamer@framepages {46}{48}}
+\headcommand {\beamer@sectionpages {42}{48}}
+\headcommand {\beamer@subsectionpages {42}{48}}
+\headcommand {\sectionentry {5}{Conclusion}{49}{Conclusion}{0}}
+\headcommand {\slideentry {5}{0}{1}{49/49}{}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {5}{0}{2}{50/52}{}{0}}
+\headcommand {\beamer@framepages {50}{52}}
+\headcommand {\beamer@sectionpages {49}{52}}
+\headcommand {\beamer@subsectionpages {49}{52}}
+\headcommand {\sectionentry {6}{References}{53}{References}{0}}
+\headcommand {\slideentry {6}{0}{1}{53/53}{}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {6}{0}{2}{54/54}{}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\beamer@partpages {1}{54}}
+\headcommand {\beamer@subsectionpages {53}{54}}
+\headcommand {\beamer@sectionpages {53}{54}}
+\headcommand {\beamer@documentpages {54}}
+\headcommand {\gdef \inserttotalframenumber {24}}
+\headcommand {\tudbeamersetpagenumberwidths {24}{55}}
