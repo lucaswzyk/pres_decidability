@@ -11,6 +11,15 @@
 \usepackage{multicol}
 \usepackage{marvosym}
 \usepackage{wasysym}
+\usepackage{tikz}
+\usepackage[pscoord]{eso-pic}% The zero point of the coordinate systemis the lower left corner of the page (the default).
+
+\newcommand{\placetextbox}[3]{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+	\setbox0=\hbox{#3}% Put <stuff> in a box
+	\AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+		\put(\LenToUnit{#1\paperwidth},\LenToUnit{#2\paperheight}){\vtop{{\null}\makebox[0pt][c]{#3}}}%
+	}%
+}%
 
 \newcommand{\theory}[1]{\text{Th}\left( #1 \right)}
 \newcommand{\lang}[1]{\text{L(}#1{)}}
@@ -33,44 +42,79 @@
 	\frame{\frametitle{Inhalt}\tableofcontents}
 	
 	\section{Basics}
-	\begin{frame}{Automata}
-		\begin{figure}
-			\only<1>{
-				\includegraphics[width=.7\linewidth]{automata_small}
-				\caption{Example automaton that accepts all binary strings containing "00"\\source: \hyperlink{ref:automata}{[1]}}
+	\begin{frame}{First-Order Logic}
+		\[
+			\forall q \: \exists p \: \forall x \: \forall y \:\: \Bigg[
+				R_{1}(p, q) \wedge \Big(
+					\neg \big(
+						R_{1}(x, 1) \wedge R_{1}(y, 1)
+					\big) \vee R_{2}(x, y, p)
+				\Big)
+			\Bigg]
+		\]
+		
+		\vspace{.25cm}
+		\only<2->{\noindent\rule[.25ex]{\textwidth}{.3pt}}
+		\vspace{.25cm}
+		\begin{tabular}{p{.5\linewidth}p{.5\linewidth}}
+			\visible<2->{
+				Formulas consist of:
+				\begin{itemize}
+					\visible<2->{\item Quantors: $ \forall, \: \exists $}
+					\visible<3->{\item Variables: $ p, q, x, y, \dots $}
+					\visible<4->{\item Boolean operators: $ \wedge, \vee, \neg $}
+					\visible<5->{\item Relation symbols: $ R_{1}, R_{2}, \dots $}
+					\visible<6->{\item Special characters: $ [, ], (, ) $}
+				\end{itemize}
 			}
-			\only<2>{
-				\includegraphics[width=.7\linewidth]{automata_big}
-				\captionsetup{justification=centering,margin=0cm}
-				\caption{Example automaton that accepts all binary strings containing an even number of "1"\\source: \hyperlink{ref:automata}{[1]}}
+			&
+			\visible<7->{
+				Simplified here:
+				\begin{itemize}
+					\visible<7->{\item mostly "sentences"}
+					\visible<8->{\item only prenex normal form}
+				\end{itemize}
 			}
-		\end{figure}
-	\end{frame}
-
-	\begin{frame}{Turing Machines}
-		\begin{figure}
-			\includegraphics[width=.7\linewidth]{turing_machine}
-			\caption{Example turing machine\\source: \hyperlink{ref:turing}{[2]}}
-		\end{figure}
+		\end{tabular}
 	\end{frame}
 
 	\begin{frame}{First-Order Logic}
-		\[
-			\forall q \: \exists p \: \forall x, y \:\: [p>q \wedge (x, y > 1 \rightarrow xy \neq p)]
-		\]
-		\vspace{-.3cm}
-		\only<4>{
+		\only<1-4>{
 			\[
-				= \quad \forall q \: \exists p \: \forall x, y \:\: \Bigg[
+				\forall q \: \exists p \: \forall x \: \forall y \:\: \Bigg[
 					R_{1}(p, q) \wedge \Big(
-						\big(
+						\neg \big(
 							R_{1}(x, 1) \wedge R_{1}(y, 1)
-						\big) \rightarrow R_{2}(x, y, p)
+						\big) \vee R_{2}(x, y, p)
 					\Big)
 				\Bigg]
 			\]
 		}
-		\only<2->{\centering"There are infinitely many prime numbers."}
+		\vspace{-.3cm}
+		
+		\only<2>{\centering$ \stackrel{!}{=} \:\:$ "There are infinitely many prime numbers."}
+		
+		\only<4->{
+			\[
+				\only<4>{= \quad} \forall q \: \exists p \: \forall x, y \:\: [p>q \wedge (x, y > 1 \rightarrow xy \neq p)]
+			\]
+		}
+		
+		\only<5>{
+			\vspace{-.3cm}
+			\[	
+				\text{vs. } \: [(x + x = y) \: \vee \: (x \geq y) ]
+			\]
+		}
+		
+		\only<6>{
+			\vspace{-.3cm}
+			\[	
+				\text{vs. } \: \forall y \: \exists x \: \: [\neg (xx \neq y)]
+			\]
+		}
+	
+		\only<7>{\centering$ = \:\:$ "There are infinitely many prime numbers."}
 		
 		\vspace{.25cm}
 		\only<3->{\noindent\rule[.25ex]{\textwidth}{.3pt}}
@@ -80,7 +124,7 @@
 				\begin{itemize}
 					\only<3->{\item \emph{universe} $ \mathcal{U} $
 						\begin{itemize}
-							\item set of assignable variable values
+							\item possible values for variables
 							\item here $ \mathbb{N} $
 						\end{itemize}
 					}
@@ -88,7 +132,7 @@
 				\only<4>{\begin{itemize}}
 					\only<4->{\item \emph{model} $ \mathcal{M} $
 						\begin{itemize}
-							\item universe with assignment of relations
+							\item universe + assignment of relations
 							\item here $ (\mathbb{N},\: >_{2},\: (\times \neq)_{3}) $
 						\end{itemize}
 					\end{itemize}
@@ -115,21 +159,11 @@
 	\end{frame}
 
 	\begin{frame}{What Is Decidability?}
-		\visible<1->{
-			Generally:
-			\begin{itemize}
-				\item $ M, N $ sets, $ \varphi \in M $
-				\item $ N $ decidable $ \coloneqq $ there is an algorithm that decides whether $ \varphi \in N $
-			\end{itemize}
-		}
-		\vspace{1cm}
-		\visible<2->{
-			For logic:
-			\begin{itemize}
-				\item $ \mathcal{M} $ model, $ \varphi \in \lang{\mathcal{M}} $
-				\item $ \theory{\mathcal{M}} $ decidable $ \coloneqq $ there is an algorithm that decides whether $ \varphi $ is true in $ \mathcal{M} $
-			\end{itemize}
-		}
+		For logic (there is a more general definition):
+		\begin{itemize}
+			\item $ \mathcal{M} $ model, $ \varphi \in \lang{\mathcal{M}} $
+			\item $ \theory{\mathcal{M}} $ decidable $ \coloneqq $ there is an algorithm that decides whether $ \varphi $ is true in $ \mathcal{M} $
+		\end{itemize}
 	\end{frame}
 
 	\section{$ \theory{\mathbb{N}, +} $ -- A Decidable Theory}
@@ -140,63 +174,38 @@
 		\uncover<2->{i.e., there is an algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
 	\end{frame}
 
+	\begin{frame}{Review: Automata}
+		\begin{figure}
+			\includegraphics[width=.55\linewidth]{addition}
+			\caption{Example automaton that accepts all correct binary additions}
+		\end{figure}
+	\end{frame}
+
 	\begin{frame}{Proof of Theorem 1}
-		Let $ i \in \mathbb{N} \setminus \{0\} $ and define
-		\[
-			\Sigma_{i} \quad\coloneqq\quad
-			\left\{
-				\begin{pmatrix}
-					0\\
-					\vdots\\
-					0\\
-					0
-				\end{pmatrix},
-				\begin{pmatrix}
-					0\\
-					\vdots\\
-					0\\
-					1
-				\end{pmatrix},
-				\begin{pmatrix}
-					0\\
-					\vdots\\
-					1\\
-					0
-				\end{pmatrix}, \dots,
-				\begin{pmatrix}
-					1\\
-					\vdots\\
-					1\\
-					0
-				\end{pmatrix},
-				\begin{pmatrix}
-					1\\
-					\vdots\\
-					1\\
-					1
-				\end{pmatrix}
-			\right\}
-			\quad \subset\quad
-			\{0, 1\}^{i}
-		\]
-		and $ \Sigma_{0} \coloneqq \{()\} $. An example for a word in $ \Sigma_{2} $:
+		Let $ i \in \mathbb{N} \setminus \{0\} $ and define $ \Sigma_{i} \coloneqq \{0, 1\}^{i} $ and $ \Sigma_{0} \coloneqq \{()\} $. 
+		
+		An example for a word in $ \Sigma_{2} $:
 		\[
 			\begin{pmatrix}
+				0\\
+				1\\
+				1
+			\end{pmatrix}
+			\begin{pmatrix}
+				0\\
 				0\\
 				1
 			\end{pmatrix}
 			\begin{pmatrix}
 				1\\
-				0
-			\end{pmatrix}
-			\begin{pmatrix}
 				1\\
-				1
+				0
 			\end{pmatrix}
 			\quad \sim \quad
 			\begin{pmatrix}
-				3\\
-				5
+				1\\
+				5\\
+				6
 			\end{pmatrix}
 		\]
 	\end{frame}
@@ -207,15 +216,14 @@
 			\begin{itemize}
 				\setlength{\itemsep}{1em}
 				\item $ i \in \{1, \dots, l\} $
-				\item $ \varphi = Q_{1} x_{1} \dots Q_{l} x_{l} [\psi] \in \lang{\mathbb{N}, +} $ \hspace{.3cm} where $ Q_{1}, \dots, Q_{l} \in \{\forall, \exists\} $
-				\item $ \varphi_{i} \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} [\psi] $ \: and by convention $ \varphi_{l} \coloneqq \psi $
+				\item $ \varphi = Q_{1} x_{1} \dots Q_{l} x_{l} \: [\psi(x_{1}, \dots, x_{l})] \in \lang{\mathbb{N}, +} $ \hspace{.3cm} where $ Q_{1}, \dots, Q_{l} \in \{\forall, \exists\} $
+				\item $ \varphi_{i} \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} \: [\psi(x_{1}, \dots, x_{l})] $ \: and by convention $ \varphi_{l} \coloneqq \psi $
+				\item $ \varphi_{i}(a_{1}, \dots, a_{i}) \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} \: [\psi(a_{1}, \dots, a_{i}, x_{i+1}, \dots, x_{l})]$
 			\end{itemize}
 		}
 	
 		\vspace{.3cm}
 		\visible<2>{
-			Also, for $ a_{1}, \dots, a_{i} \in \mathbb{N} $, let $ \varphi_{i}(a_{1}, \dots, a_{i}) $ be $ \varphi_{i} $ with all occurrences of $ x_{j} $ replaced by $ a_{j} $ for $ j  \in \{1, \dots, l\} $.
-			
 			\[
 				\Longrightarrow \qquad
 				\varphi_{l} \:\: \text{ is only a Boolean expression.}
@@ -224,53 +232,60 @@
 	\end{frame}
 
 	\begin{frame}{Proof of Theorem 1}
-		\visible<1->{
-			Take
-			\begin{itemize}
-				\item an automaton that accepts simple addition ($ a + b = c $)
-				\item an automaton that accepts boolean "and" expressions ($ p \wedge q $)
-				\item an automaton that accepts boolean "or" expressions ($ p \vee q $)
-				\item an automaton that accepts boolean "not" expressions ($ \neg p $) 
-			\end{itemize}
-		}
+		\begin{itemize}
+			\item Calculate one addition automaton for each addition term in $ \varphi_{l} $
+			\item Combine them:
+				\begin{itemize}
+					\item automaton product for $ \wedge $
+					\item automaton union for $ \vee $
+					\item automaton complement for $ \neg $
+				\end{itemize}
+				in a way that they behave like $ \varphi_{l} $, i. e. that the resulting automaton accepts tuples $ (a_{1}, \dots, a_{l}) \in \mathbb{N}^{l} $ for which $ \varphi_{l}(a_{1}, \dots, a_{l}) $ is true.
+		\end{itemize}
 		\vspace{.3cm}
-		\visible<2->{
-			Combine them (closure, union, intersection, complementation) to get the automaton $ A_{l} $ that accepts tuples $ (a_{1}, \dots, a_{l}) \in \mathbb{N}^{l} $ for which $ \varphi_{l}(a_{1}, \dots, a_{l}) $ is true.
-			
-			\vspace{.3cm}
-		}
+		
+		\visible<2->{We call that automaton $ A_{l} $.}
+		\vspace{.3cm}
+		
 		\visible<3->{
 			\textbf{Important:} There is an algorithm that constructs $ A_{l} $ from $ \varphi_{l} = \psi $.
 		}
 	\end{frame}
 
 	\begin{frame}{Proof of Theorem 1}
-		\visible<1->{
+		\only<1,3->{
 			If $ Q_{i} = \exists $, construct automaton $ A_{i} $ from $ A_{i+1} $ by
 			\begin{itemize}
-				\item copying all states
-				\item adding a new start state
-				\item making $ A_{i} $ guess the right $ a_{i+1} $ indeterministically
+				\item copying $ A_{i+1} $
+				\item adding a new start state and one state for each character in $ \Sigma_{i} $
+				\item making $ A_{i} $ guess the right $ a_{i+1} $ non-deterministically
 			\end{itemize}
 		}
 	
+		\only<2>{
+			\begin{figure}
+				\includegraphics[width=.55\linewidth]{non-det_guessing}
+				\caption{Example construction of non-deterministic guessing}
+			\end{figure}
+		}
+	
 		\vspace{.3cm}
-		\visible<2->{
+		\visible<3->{
 			If else $ Q_{i} = \forall $, use complementation twice ($ \forall x_{i} \varphi_{i+1} = \neg \exists x_{i} \neg \varphi_{i+1} $)
 		}
 		
 		\vspace{.3cm}
-		\visible<3->{
+		\visible<4->{
 			$ \Longrightarrow \qquad A_{i} $ accepts input $ (a_{1}, \dots, a_{i}) \in \mathbb{N}^{i} \quad \Leftrightarrow \quad \varphi_{i} $ is true
 		}
 	
 		\vspace{.3cm}
-		\visible<4->{
+		\visible<5->{
 			$ \Longrightarrow \qquad A_{0} $ accepts input $ () \quad \Leftrightarrow \quad \varphi_{0} = \varphi $ is true
 		}
 	
 		\vspace{.3cm}
-		\visible<5->{
+		\visible<6->{
 			Let the algorithm return "$ \varphi \in \theory{\mathbb{N}, +} $" $ \quad \Leftrightarrow \quad A_{0} $ accepts input $ () $
 		}
 	\end{frame}
@@ -281,6 +296,13 @@
 		
 		\vspace{1cm}
 		\uncover<2->{i.e., there is no algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
+	\end{frame}
+
+	\begin{frame}{Turing Machines}
+		\begin{figure}
+			\includegraphics[width=.7\linewidth]{turing_machine}
+			\caption{Example turing machine\\source: \hyperlink{ref:turing}{[2]}}
+		\end{figure}
 	\end{frame}
 
 	\begin{frame}{Proof Idea for Theorem 2}
