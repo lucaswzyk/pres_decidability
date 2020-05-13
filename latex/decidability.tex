@@ -60,7 +60,7 @@
 			\visible<2->{
 				Formulas consist of:
 				\begin{itemize}
-					\visible<2->{\item Quantors: $ \forall, \: \exists $}
+					\visible<2->{\item Quantifiers: $ \forall, \: \exists $}
 					\visible<3->{\item Variables: $ p, q, x, y, \dots $}
 					\visible<4->{\item Boolean operators: $ \wedge, \vee, \neg $}
 					\visible<5->{\item Relation symbols: $ R_{1}, R_{2}, \dots $}
@@ -159,16 +159,23 @@
 	\end{frame}
 
 	\begin{frame}{What Is Decidability?}
-		For logic (there is a more general definition):
 		\begin{itemize}
-			\item $ \mathcal{M} $ model, $ \varphi \in \lang{\mathcal{M}} $
-			\item $ \theory{\mathcal{M}} $ decidable $ \coloneqq $ there is an algorithm that decides whether $ \varphi $ is true in $ \mathcal{M} $
+			\item here: for logic (there is a more general definition)
+			\item let $ \mathcal{M} $ be a model, $ \varphi \in \lang{\mathcal{M}} $
 		\end{itemize}
+		
+		\[
+			\theory{\mathcal{M}} \text{ decidable } \coloneqq
+		\]\[
+			\text{ there is an algorithm that decides whether } \varphi \text{ is true in } \mathcal{M} 
+		\]
 	\end{frame}
 
 	\section{$ \theory{\mathbb{N}, +} $ -- A Decidable Theory}
 	\begin{frame}{Theorem 1}
-		$ \theory{\mathbb{N}, +} $ is decidable
+		\begin{theorem}
+			$ \theory{\mathbb{N}, +} $ is decidable.
+		\end{theorem}
 		
 		\vspace{1cm}
 		\uncover<2->{i.e., there is an algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
@@ -182,9 +189,12 @@
 	\end{frame}
 
 	\begin{frame}{Proof of Theorem 1}
+		\textbf{Idea: } Construct an automaton that accepts an (almost) empty input iff the given sentence is true.
+		\vspace{.5cm}
+		
 		Let $ i \in \mathbb{N} \setminus \{0\} $ and define $ \Sigma_{i} \coloneqq \{0, 1\}^{i} $ and $ \Sigma_{0} \coloneqq \{()\} $. 
 		
-		An example for a word in $ \Sigma_{2} $:
+		An example for a word in $ \Sigma_{3} $:
 		\[
 			\begin{pmatrix}
 				0\\
@@ -215,15 +225,23 @@
 			Now, let 
 			\begin{itemize}
 				\setlength{\itemsep}{1em}
-				\item $ i \in \{1, \dots, l\} $
+				\item $ i \in \{0, \dots, l\} $
 				\item $ \varphi = Q_{1} x_{1} \dots Q_{l} x_{l} \: [\psi(x_{1}, \dots, x_{l})] \in \lang{\mathbb{N}, +} $ \hspace{.3cm} where $ Q_{1}, \dots, Q_{l} \in \{\forall, \exists\} $
-				\item $ \varphi_{i} \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} \: [\psi(x_{1}, \dots, x_{l})] $ \: and by convention $ \varphi_{l} \coloneqq \psi $
-				\item $ \varphi_{i}(a_{1}, \dots, a_{i}) \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} \: [\psi(a_{1}, \dots, a_{i}, x_{i+1}, \dots, x_{l})]$
+				\visible<2->{
+					\item $ \varphi_{i} \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} \: [\psi(x_{1}, \dots, x_{l})] $
+					\begin{itemize}
+						\item[$ \Rightarrow $] $ \varphi_{0} = \varphi $
+						\item[$ \Rightarrow $] $ \varphi_{l} \coloneqq \psi $
+					\end{itemize}
+				}
+				\visible<3->{
+					\item $ \varphi_{i}(a_{1}, \dots, a_{i}) \coloneqq Q_{i+1} x_{i+1} \dots Q_{l} x_{l} \: [\psi(a_{1}, \dots, a_{i}, x_{i+1}, \dots, x_{l})]$
+				}
 			\end{itemize}
 		}
 	
 		\vspace{.3cm}
-		\visible<2>{
+		\visible<4->{
 			\[
 				\Longrightarrow \qquad
 				\varphi_{l} \:\: \text{ is only a Boolean expression.}
@@ -232,23 +250,23 @@
 	\end{frame}
 
 	\begin{frame}{Proof of Theorem 1}
+		Construct an automaton $ A_{l} $ that behaves like $ \varphi_{l} = \psi $, meaning $ A_{l} $ accepts exactly the tuples $ (a_{1}, \dots, a_{l}) \in \mathbb{N}^{l} $\: for which $ \varphi_{l}(a_{1}, \dots, a_{l}) $ is true:
+		\vspace{.3cm}
+		
 		\begin{itemize}
-			\item Calculate one addition automaton for each addition term in $ \varphi_{l} $
+			\item Take one addition automaton for each addition term in $ \varphi_{l} $
 			\item Combine them:
 				\begin{itemize}
 					\item automaton product for $ \wedge $
 					\item automaton union for $ \vee $
 					\item automaton complement for $ \neg $
 				\end{itemize}
-				in a way that they behave like $ \varphi_{l} $, i. e. that the resulting automaton accepts tuples $ (a_{1}, \dots, a_{l}) \in \mathbb{N}^{l} $ for which $ \varphi_{l}(a_{1}, \dots, a_{l}) $ is true.
+				in a way that they behave like $ \varphi_{l} $.
 		\end{itemize}
 		\vspace{.3cm}
 		
-		\visible<2->{We call that automaton $ A_{l} $.}
-		\vspace{.3cm}
-		
 		\visible<3->{
-			\textbf{Important:} There is an algorithm that constructs $ A_{l} $ from $ \varphi_{l} = \psi $.
+			\textbf{Important:} There is an algorithm that constructs $ A_{l} $ from $ \varphi_{l} $
 		}
 	\end{frame}
 
