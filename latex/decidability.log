@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  13 MAY 2020 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  16 MAY 2020 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1359,7 +1359,21 @@ File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
 Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 39.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- (./decidability.toc
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 45.
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 45.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 45.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [2
+
+
+
+] (./decidability.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1386,80 +1400,78 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 6.0pt on input line 3.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 42.
+(Font)              scaled to size 17.28pt on input line 47.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/bx/n' in size <17.28> not avail
 able
 (Font)              Font shape `T1/opensans-TLF/b/n' tried instead on input lin
-e 42.
+e 47.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 42.
+(Font)              scaled to size 17.28pt on input line 47.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 42.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 47.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 42.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [2
-
-
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
-* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
-* \paperwidth=455.24408pt
-* \paperheight=256.0748pt
-* \textwidth=390.75089pt
-* \textheight=256.0748pt
-* \oddsidemargin=-40.02339pt
-* \evensidemargin=-40.02339pt
-* \topmargin=-72.26999pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 44.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 44.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-File: Seminarraum.jpg Graphic file (type jpg)
-<use Seminarraum.jpg>
-Package pdftex.def Info: Seminarraum.jpg  used on input line 44.
-(pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 44.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 44.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 47.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [3
 
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=390.75089pt
+* \textheight=256.0748pt
+* \oddsidemargin=-40.02339pt
+* \evensidemargin=-40.02339pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 49.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 49.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+File: Seminarraum.jpg Graphic file (type jpg)
+<use Seminarraum.jpg>
+Package pdftex.def Info: Seminarraum.jpg  used on input line 49.
+(pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 49.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 49.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [4
+
 
 
 ]
@@ -1497,280 +1509,280 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 44.
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 44.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 49.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 44.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 49.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 LaTeX Font Info:    Trying to load font information for OMS+opensans-TLF on inp
-ut line 79.
-LaTeX Font Info:    No file OMSopensans-TLF.fd. on input line 79.
+ut line 84.
+LaTeX Font Info:    No file OMSopensans-TLF.fd. on input line 84.
 
 
 LaTeX Font Warning: Font shape `OMS/opensans-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 79.
+(Font)              for symbol `textbullet' on input line 84.
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 [][]  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[4
-
-
-
-]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
-[]  
- []
-
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [5
 
+
+
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [6
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [7
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [8
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [9
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [10
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 79.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 79.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [11
 
 ]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 84--84
+[]  
+ []
+
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 84.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 84.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [12
+[12
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [13
 
 ]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 159.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 159.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 159.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 159.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 159.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 159.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 159--159
-[]  
- []
-
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[14
+ [14
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 159--159
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 164.
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [15
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 159--159
+Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [16
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 159--159
+Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
 []  
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 [17
 
 ]
-Overfull \hbox (24.0pt too wide) in paragraph at lines 159--159
+Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
+[]  
+ []
+
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+[18
+
+]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
  [] 
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 159.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 164.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 159.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[18
+[19
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 172.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 177.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 172.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 177.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [19
+ [20
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 174.
+(hyperref)                removing `math shift' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\left' on input line 174.
+(hyperref)                removing `\left' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\right' on input line 174.
+(hyperref)                removing `\right' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 174.
+(hyperref)                removing `math shift' on input line 179.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1806,73 +1818,73 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 174.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 179.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 174.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 179.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-LaTeX Font Info:    Calculating math sizes for size <15.1763> on input line 174
+LaTeX Font Info:    Calculating math sizes for size <15.1763> on input line 179
 .
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <15.1763> not available
-(Font)              size <14.4> substituted on input line 174.
+(Font)              size <14.4> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <7.58815> not available
-(Font)              size <8> substituted on input line 174.
+(Font)              size <8> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15.1763> not available
-(Font)              size <14.4> substituted on input line 174.
+(Font)              size <14.4> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58815> not available
-(Font)              size <8> substituted on input line 174.
+(Font)              size <8> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15.1763> not available
-(Font)              size <14.4> substituted on input line 174.
+(Font)              size <14.4> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58815> not available
-(Font)              size <8> substituted on input line 174.
+(Font)              size <8> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <15.1763> not available
-(Font)              size <14.4> substituted on input line 174.
+(Font)              size <14.4> substituted on input line 179.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <7.58815> not available
-(Font)              size <8> substituted on input line 174.
+(Font)              size <8> substituted on input line 179.
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.62335pt on input line 174.
+(Font)              scaled to size 10.62335pt on input line 179.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 15.1763pt on input line 174.
+(Font)              scaled to size 15.1763pt on input line 179.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.62335pt on input line 174.
+(Font)              scaled to size 10.62335pt on input line 179.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.58815pt on input line 174.
+(Font)              scaled to size 7.58815pt on input line 179.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/bx/n' in size <10.62335> not av
 ailable
 (Font)              Font shape `T1/opensans-TLF/b/n' tried instead on input lin
-e 174.
+e 179.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.62335pt on input line 174.
+(Font)              scaled to size 10.62335pt on input line 179.
 File: Seminarraum.jpg Graphic file (type jpg)
 <use Seminarraum.jpg>
-Package pdftex.def Info: Seminarraum.jpg  used on input line 174.
+Package pdftex.def Info: Seminarraum.jpg  used on input line 179.
 (pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 174.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 179.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 174.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 179.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[20
+[21
 
 
 
@@ -1911,244 +1923,244 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 174.
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 174.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 179.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 174.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 179.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 182.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 187.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 182.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [21
-
-
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 182.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 182.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 187.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [22
 
+
+
 ]
-<addition.jpg, id=666, 700.86844pt x 529.22719pt>
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 187.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 187.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [23
+
+]
+<addition.jpg, id=693, 700.86844pt x 529.22719pt>
 File: addition.jpg Graphic file (type jpg)
 <use addition.jpg>
-Package pdftex.def Info: addition.jpg  used on input line 189.
+Package pdftex.def Info: addition.jpg  used on input line 194.
 (pdftex.def)             Requested size: 214.91417pt x 162.28215pt.
 
-Overfull \vbox (0.97276pt too high) detected at line 189
+Overfull \vbox (0.97276pt too high) detected at line 194
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 189.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 194.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 189.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 194.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[23
+[24
 
  <./addition.jpg>]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/bx/n' in size <10.95> not avail
 able
 (Font)              Font shape `T1/opensans-TLF/b/n' tried instead on input lin
-e 221.
+e 226.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 221.
+(Font)              scaled to size 10.95pt on input line 226.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 221.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 226.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 221.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [24
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 250.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 250.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 226.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [25
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 250.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 255.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 250.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 255.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [26
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 250.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 255.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 250.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 255.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [27
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 250.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 255.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 250.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 255.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [28
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 271.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 255.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 271.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 255.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [29
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 271.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 276.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 271.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 276.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [30
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 271.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 276.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 271.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 276.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [31
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 309.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 276.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 309.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 276.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [32
 
 ]
-<non-det_guessing.jpg, id=932, 806.26219pt x 643.6547pt>
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 314.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 314.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [33
+
+]
+<non-det_guessing.jpg, id=958, 806.26219pt x 643.6547pt>
 File: non-det_guessing.jpg Graphic file (type jpg)
 <use non-det_guessing.jpg>
-Package pdftex.def Info: non-det_guessing.jpg  used on input line 309.
+Package pdftex.def Info: non-det_guessing.jpg  used on input line 314.
 (pdftex.def)             Requested size: 214.91417pt x 171.56946pt.
 
-Overfull \vbox (98.6238pt too high) detected at line 309
+Overfull \vbox (98.6238pt too high) detected at line 314
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 309.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 314.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 309.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 314.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[33
+[34
 
  <./non-det_guessing.jpg>]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 309.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 314.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 309.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [34
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 309.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 309.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 314.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [35
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 309.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 314.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 309.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 314.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [36
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 309.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 314.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 309.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 314.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [37
 
 ]
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 314.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 314.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [38
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 311.
+(hyperref)                removing `math shift' on input line 316.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\left' on input line 311.
+(hyperref)                removing `\left' on input line 316.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\times' on input line 311.
+(hyperref)                removing `\times' on input line 316.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\right' on input line 311.
+(hyperref)                removing `\right' on input line 316.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 311.
+(hyperref)                removing `math shift' on input line 316.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -2184,25 +2196,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 311.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 316.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 311.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 316.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 File: Seminarraum.jpg Graphic file (type jpg)
 <use Seminarraum.jpg>
-Package pdftex.def Info: Seminarraum.jpg  used on input line 311.
+Package pdftex.def Info: Seminarraum.jpg  used on input line 316.
 (pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 311.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 316.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 311.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 316.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[38
+[39
 
 
 
@@ -2241,45 +2253,12 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 311.
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 311.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 316.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 311.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 316.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 317.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 317.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [39
-
-
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 317.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 317.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [40
-
-]
-<turing_machine.png, id=1148, 633.36626pt x 349.305pt>
-File: turing_machine.png Graphic file (type png)
-<use turing_machine.png>
-Package pdftex.def Info: turing_machine.png  used on input line 324.
-(pdftex.def)             Requested size: 273.52441pt x 150.8538pt.
-
-Overfull \vbox (2.96698pt too high) detected at line 324
- []
-
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 324.
@@ -2288,178 +2267,222 @@ File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
 Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 324.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[41
+ [40
+
+
+
+]
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 324.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 324.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [41
+
+]
+<turing_machine.png, id=1174, 633.36626pt x 349.305pt>
+File: turing_machine.png Graphic file (type png)
+<use turing_machine.png>
+Package pdftex.def Info: turing_machine.png  used on input line 331.
+(pdftex.def)             Requested size: 273.52441pt x 150.8538pt.
+
+Overfull \vbox (2.96698pt too high) detected at line 331
+ []
+
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 331.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 331.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+[42
 
  <./turing_machine.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 359
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 368
 .
 
 (/usr/share/texmf-dist/tex/latex/marvosym/umvs.fd)
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [42
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [43
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [44
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [45
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [46
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-
-[47
+ [47
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 359.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 359.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [48
+
+[48
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 380.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 368.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 380.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 368.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [49
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 380.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 394.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 380.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 394.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [50
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 380.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 394.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 380.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 394.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [51
 
 ]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
-* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
-* \paperwidth=455.24408pt
-* \paperheight=256.0748pt
-* \textwidth=390.75089pt
-* \textheight=256.0748pt
-* \oddsidemargin=-40.02339pt
-* \evensidemargin=-40.02339pt
-* \topmargin=-72.26999pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 382.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 394.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 382.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-File: Seminarraum.jpg Graphic file (type jpg)
-<use Seminarraum.jpg>
-Package pdftex.def Info: Seminarraum.jpg  used on input line 382.
-(pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 382.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 382.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 394.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [52
 
+]
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 394.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 394.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [53
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=390.75089pt
+* \textheight=256.0748pt
+* \oddsidemargin=-40.02339pt
+* \evensidemargin=-40.02339pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 396.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 396.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+File: Seminarraum.jpg Graphic file (type jpg)
+<use Seminarraum.jpg>
+Package pdftex.def Info: Seminarraum.jpg  used on input line 396.
+(pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 396.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 396.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [54
+
 
 
 ]
@@ -2497,45 +2520,23 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 382.
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 382.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 396.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 382.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 396.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 401.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 417.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 401.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [53
-
-
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 401.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 401.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [54
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 401.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 401.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 417.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [55
+
+
 
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
@@ -2562,147 +2563,36 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 417.
 ]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 417.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 433.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 417.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 433.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [58
 
 ]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
-* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
-* \paperwidth=455.24408pt
-* \paperheight=256.0748pt
-* \textwidth=390.75089pt
-* \textheight=256.0748pt
-* \oddsidemargin=-40.02339pt
-* \evensidemargin=-40.02339pt
-* \topmargin=-72.26999pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 419.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 433.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 419.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-File: Seminarraum.jpg Graphic file (type jpg)
-<use Seminarraum.jpg>
-Package pdftex.def Info: Seminarraum.jpg  used on input line 419.
-(pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 419.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 419.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 433.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [59
 
-
-
 ]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
-* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
-* \paperwidth=455.24408pt
-* \paperheight=256.0748pt
-* \textwidth=390.75089pt
-* \textheight=256.0748pt
-* \oddsidemargin=-40.02339pt
-* \evensidemargin=-40.02339pt
-* \topmargin=-72.26999pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 419.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 433.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 419.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 432.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 432.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 433.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
  [60
 
-
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 432.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 432.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [61
-
-]
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 432.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 432.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-
-[62
-
 ]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -2738,25 +2628,25 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 432.
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 434.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 435.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 434.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 435.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 File: Seminarraum.jpg Graphic file (type jpg)
 <use Seminarraum.jpg>
-Package pdftex.def Info: Seminarraum.jpg  used on input line 434.
+Package pdftex.def Info: Seminarraum.jpg  used on input line 435.
 (pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 434.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 435.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 434.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 435.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [63
+ [61
 
 
 
@@ -2795,26 +2685,159 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 434.
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 434.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 435.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 434.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 435.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 448.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 448.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [62
+
+
+
+]
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 448.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 448.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+
+[63
+
+]
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 448.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 448.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [64
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=390.75089pt
+* \textheight=256.0748pt
+* \oddsidemargin=-40.02339pt
+* \evensidemargin=-40.02339pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 450.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 450.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+File: Seminarraum.jpg Graphic file (type jpg)
+<use Seminarraum.jpg>
+Package pdftex.def Info: Seminarraum.jpg  used on input line 450.
+(pdftex.def)             Requested size: 455.2534pt x 227.90166pt.
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 450.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 450.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [65
+
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(32.2466pt, 390.75089pt, 32.2466pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=390.75089pt
+* \textheight=256.0748pt
+* \oddsidemargin=-40.02339pt
+* \evensidemargin=-40.02339pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 450.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 450.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-43.
+59.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 443.
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 459.
 (pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
 File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 443.
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 459.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [64
+ [66
 
 
 
@@ -2828,14 +2851,14 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 443.
 \tf@snm=\write8
 \openout8 = `decidability.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
 
 (./decidability.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
 Package rerunfilecheck Info: File `decidability.out' has not changed.
-(rerunfilecheck)             Checksum: 1F79A6BF755C7284D3DBBD8684D53A8A;359.
+(rerunfilecheck)             Checksum: B5A6B20FBA19446487B28D8FD8BF510A;370.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2846,33 +2869,35 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 27307 strings out of 492167
- 514843 string characters out of 6131559
+ 27316 strings out of 492167
+ 514962 string characters out of 6131559
  632888 words of memory out of 5000000
- 30911 multiletter control sequences out of 15000+600000
- 34220 words of font info for 107 fonts, out of 8000000 for 9000
+ 30914 multiletter control sequences out of 15000+600000
+ 35021 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,96p,809b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
-exmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}</usr/share/texmf-dist/fonts/ty
-pe1/ascender/opensans/OpenSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/asce
-nder/opensans/OpenSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/ascender/o
-pensans/OpenSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-s12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pf
-b>
-Output written on decidability.pdf (64 pages, 1228070 bytes).
+pdfTeX warning (dest): name{ref:theolog} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/tex
+mf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}</usr/share/texmf-dist/fonts/type
+1/ascender/opensans/OpenSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/ascend
+er/opensans/OpenSans-Italic.pfb></usr/share/texmf-dist/fonts/type1/ascender/ope
+nsans/OpenSans-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
+2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/
+fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
+Output written on decidability.pdf (66 pages, 1235045 bytes).
 PDF statistics:
- 1895 PDF objects out of 2073 (max. 8388607)
- 1758 compressed objects within 18 object streams
- 138 named destinations out of 1000 (max. 500000)
+ 1958 PDF objects out of 2073 (max. 8388607)
+ 1818 compressed objects within 19 object streams
+ 143 named destinations out of 1000 (max. 500000)
  163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

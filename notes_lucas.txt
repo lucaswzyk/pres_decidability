@@ -1,0 +1,31 @@
+slide 17
+    - terminology (basically an automaton with an additional band for reading / writing)
+    - record (old state, transition, new state) triples -> computation history
+    
+slide 18
+    - theorem word problem and existence of mapping reduction need to be accepted
+      but are not too hard to imagine
+      
+slide 19
+    - sentences are either true or false, proof shows: there are some statements that are undecidable
+    -> are these true or false?
+    -> should we not be able to prove them?
+    
+slide 22
+    - in our proof, this statement was rather 
+      "This is a statement which you (dear Turing machine) cannot prove because it would break your logic."
+
+maybe for discussion:
+Riemann hypothesis: all zeros of Riemann zeta function are in {.5 + i a | a \in |R}
+map problem to a sentence phi in Th(|N, +, x) and simultaneously try to proof both phi and \neg phi
+
+suppose phi undecidable
+
+suppose false, then provably false (find a zero off the line, construction / search)
+-> decidable
+-> it can't be false
+-> it is true but unprovable
+
+So proving that the Riemann hypothesis is undecidable would show that it must be true.
+-> That would mean, one would prove it's true by showing it has no proof.
+-> Contradiction? :p

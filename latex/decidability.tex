@@ -39,10 +39,15 @@
 	\maketitle
 	
 	\mode<presentation>{\setbeamertemplate{page number in footline}[frame][text and total]}
+	
+	\begin{frame}{}
+		\Huge \centering Can we mechanize \\mathematics?
+	\end{frame}
+
 	\frame{\frametitle{Inhalt}\tableofcontents}
 	
-	\section{Basics}
-	\begin{frame}{First-Order Logic}
+	\section{First-Order Logic}
+	\begin{frame}{Syntax}
 		\[
 			\forall q \: \exists p \: \forall x \: \forall y \:\: \Bigg[
 				R_{1}(p, q) \wedge \Big(
@@ -71,14 +76,14 @@
 			\visible<7->{
 				Simplified here:
 				\begin{itemize}
-					\visible<7->{\item mostly "sentences"}
-					\visible<8->{\item only prenex normal form}
+					\visible<7->{\item mostly "sentences"\\(no free variables)}
+					\visible<8->{\item only prenex normal form\\(all quantifiers on the left)}
 				\end{itemize}
 			}
 		\end{tabular}
 	\end{frame}
 
-	\begin{frame}{First-Order Logic}
+	\begin{frame}{Semantics}
 		\only<1-4>{
 			\[
 				\forall q \: \exists p \: \forall x \: \forall y \:\: \Bigg[
@@ -178,7 +183,7 @@
 		\end{theorem}
 		
 		\vspace{1cm}
-		\uncover<2->{i.e., there is an algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
+		\uncover<2->{i.e., there is an algorithm that can decide,\\ whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
 	\end{frame}
 
 	\begin{frame}{Review: Automata}
@@ -310,10 +315,12 @@
 
 	\section{$ \theory{\mathbb{N}, +, \times} $ -- An Undecidable Theory}
 	\begin{frame}{Theorem 2}
-		$ \theory{\mathbb{N}, +, \times} $ is undecidable
+		\begin{theorem}
+			$ \theory{\mathbb{N}, +, \times} $ is undecidable.
+		\end{theorem}
 		
 		\vspace{1cm}
-		\uncover<2->{i.e., there is no algorithm that can decide, whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
+		\uncover<2->{i.e., there is \underline{no} algorithm that can decide,\\ whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
 	\end{frame}
 
 	\begin{frame}{Turing Machines}
@@ -326,17 +333,19 @@
 	\begin{frame}{Proof Idea for Theorem 2}
 		\begin{itemize}
 			\visible<1->{
-				\item The word problem for Turing machines is undecidable.
+				\item \only<1, 7>{\textbf{The word problem for Turing machines is undecidable.}} 
+				\only<2-6>{The word problem for Turing machines is undecidable.} (\hyperlink{ref:theolog}{[5]}, Satz 5.6) 
+				\only<7>{\Lightning}
 			}
 			\visible<2->{
 			\item There is a mapping reduction that translates
 				\begin{itemize}
 					\item a Turing machine $ M $ and a string $ w $
 					\visible<3->{
-						\item to a formula $ \varphi_{M, w} \in \theory{\mathbb{N}, +, \times} $ that contains only one free variable $ x $, such that
+						\item to a formula $ \varphi_{M, w}(x) \in \lang{\mathbb{N}, +, \times} $ that contains only one free variable $ x $, such that
 					}
 					\visible<4->{
-						\item $ \varphi_{M, w} $ is true $ \: \Leftrightarrow \: x $ is a (suitably encoded) computation history of $ M $ with which $ M $ accepts $ w $
+						\item $ \varphi_{M, w}(x) $ is true $ \: \Leftrightarrow \: M $ accepts $ w $ (with the computation history suitably encoded in $ x $)
 					}
 				\end{itemize}
 			}
@@ -346,7 +355,7 @@
 		\visible<5->{
 			Assume $ \theory{\mathbb{N}, +, \times} $ is decidable.
 		
-			$ \Longrightarrow \quad $ The formulas $ \exists x \varphi_{M, w} \in \theory{\mathbb{N}, +, \times} $ are decidable.
+			$ \Longrightarrow \quad $ The formulas $ \exists x \: [\varphi_{M, w}(x)] \in \theory{\mathbb{N}, +, \times} $ are decidable.
 		}
 	
 		\visible<6->{
@@ -359,20 +368,25 @@
 	\end{frame}
 
 	\begin{frame}{Thinking further...}
-		Assumptions:
-		\begin{itemize}
-			\item [A$ _{1} $] Proofs can be checked by a machine.
-			\item [A$ _{2} $] Provable statements are true.
-		\end{itemize}
+		\textbf{Is there a true, unprovable sentence?}
+		\vspace{.3cm}
+		
+		\visible<2->{
+			A proof is a series of implications and can be written as a string over some alphabet (here: $ \lang{\mathbb{N}, +, \times} $). Assumptions:
+			\begin{itemize}
+				\item [A$ _{1} $] Proofs can be checked by a machine.
+				\item [A$ _{2} $] Provable statements are true.
+			\end{itemize}
+		}
 		
 		\vspace{.3cm}
-		\visible<2->{
+		\visible<3->{
 			Lemmas:
 			\begin{enumerate}
 				\item \label{item1} The provable statements of $ \theory{\mathbb{N}, +, \times} $ are Turing recognizable.
 				\\\textbf{Proof idea:} Just try all possible (suitably encoded) proofs.
-				\visible<3->{
-					\item There is a true statement in $ \theory{\mathbb{N}, +, \times} $ that is not provable.
+				\visible<4->{
+					\item There is a (true) statement in $ \theory{\mathbb{N}, +, \times} $ that is not provable.
 					\\\textbf{Proof idea:} Contradiction to Theorem 2 by using \ref{item1}. 
 				}
 			\end{enumerate}
@@ -381,22 +395,24 @@
 
 	\section{Gödel's Incompleteness Theorem}
 	\begin{frame}{A True, Unprovable Statement}
-		We can construct a true statement in $ \theory{\mathbb{N}, +, \times} $, that is not provable.
+		\begin{theorem}
+			We can construct a true statement in $ \theory{\mathbb{N}, +, \times} $, that is not provable.
+		\end{theorem}
 		
 		\visible<2->{
 			\vspace{.3cm}
-			\textbf{Construction:}
+			\textbf{Proof:}
 			Let $ M $ be a Turing machine that operates as follows.
 			\begin{itemize}
 				\item Delete the input
-				\item Look for proof of $ \neg \exists x [\varphi_{M, 0}] \in \theory{\mathbb{N}, +, \times} $
-				\item Accept on proof, reject if no proof can be found
+				\item Look for proof of $ \varphi \coloneqq \neg \exists x [\varphi_{M, 0}(x)] \in \theory{\mathbb{N}, +, \times} $
+				\item Accept input $ \Leftrightarrow $ proof for $ \varphi $ has been found
 			\end{itemize}
 		}
 		
 		\vspace{.3cm}
 		\visible<3->{
-			$ \Longrightarrow \quad \neg \exists x [\varphi_{M, 0}] $ is the wanted statement.
+			$ \Longrightarrow \quad \varphi $ is the wanted statement.
 		}
 	\end{frame}
 
