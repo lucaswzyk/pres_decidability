@@ -1,3 +1,30 @@
+slide 2
+    - Can we use machines to systematically expand our logical theories?
+    - Do we even need people for thinking and proving?
+    - What is decidability and what does it have to do with the question?
+    
+slide 5
+    - "free variable" is a variable without quantifier
+    - emphasis: this does not yet mean anything, it's just a well-formed expression
+    
+slide 6
+    - here we add meaning (goal: make this say "There are infinitely many prime numbers.")
+
+slide 7
+    - start at START STATE q_0
+    - What could the first bit vector of an addition look like?
+    - What are the valid ones (transition to q_1)? For which do we have to check if the following bit gives a carry (transition to q_2)?
+    - throw away others (q_3)
+    - have a look at all possible following bits
+    
+    - non-deterministic, here: missing transitions from q_3 (easy to complete), general:
+        - states have multiple outgoing transitions to different states with the same character
+        - not all states must have all transitions
+        - empty word can be transition character
+        
+slide 11
+    - "(almost)" because () will act as an empty input vector
+
 slide 17
     - terminology (basically an automaton with an additional band for reading / writing)
     - record (old state, transition, new state) triples -> computation history

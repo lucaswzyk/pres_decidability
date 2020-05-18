@@ -255,23 +255,41 @@
 	\end{frame}
 
 	\begin{frame}{Proof of Theorem 1}
-		Construct an automaton $ A_{l} $ that behaves like $ \varphi_{l} = \psi $, meaning $ A_{l} $ accepts exactly the tuples $ (a_{1}, \dots, a_{l}) \in \mathbb{N}^{l} $\: for which $ \varphi_{l}(a_{1}, \dots, a_{l}) $ is true:
-		\vspace{.3cm}
-		
-		\begin{itemize}
-			\item Take one addition automaton for each addition term in $ \varphi_{l} $
-			\item Combine them:
-				\begin{itemize}
-					\item automaton product for $ \wedge $
-					\item automaton union for $ \vee $
-					\item automaton complement for $ \neg $
+		\only<1, 2, 4, 6>{
+			Construct an automaton $ A_{l} $ that behaves like $ \varphi_{l} = \psi $, meaning $ A_{l} $ accepts exactly the tuples $ (a_{1}, \dots, a_{l}) \in \mathbb{N}^{l} $\: for which $ \varphi_{l}(a_{1}, \dots, a_{l}) $ is true:
+			\vspace{.3cm}
+			
+			\begin{itemize}
+				\visible<2->{
+					\item Take one addition automaton for each addition term in $ \varphi_{l} $
+				}
+				\visible<4->{
+					\item Combine them:
+					\begin{itemize}
+						\item automaton product for $ \wedge $
+						\item automaton union for $ \vee $
+						\item automaton complement for $ \neg $
+					\end{itemize}
+					in a way that they behave like $ \varphi_{l} $.
+				}
 				\end{itemize}
-				in a way that they behave like $ \varphi_{l} $.
-		\end{itemize}
-		\vspace{.3cm}
-		
-		\visible<3->{
-			\textbf{Important:} There is an algorithm that constructs $ A_{l} $ from $ \varphi_{l} $
+			\vspace{.3cm}
+			
+			\visible<6->{
+				\textbf{Important:} There is an algorithm that constructs $ A_{l} $ from $ \varphi_{l} $
+			}
+		}
+		\only<3>{
+			\begin{figure}
+				\includegraphics[width=.55\linewidth]{addition}
+				\caption{Addition automaton}
+			\end{figure}
+		}
+		\only<5>{
+			\begin{figure}
+				\includegraphics[width=.8\linewidth]{conjunction}
+				\caption{Conjunction of two simple automata}
+			\end{figure}
 		}
 	\end{frame}
 
@@ -294,7 +312,7 @@
 	
 		\vspace{.3cm}
 		\visible<3->{
-			If else $ Q_{i} = \forall $, use complementation twice ($ \forall x_{i} \varphi_{i+1} = \neg \exists x_{i} \neg \varphi_{i+1} $)
+			If else $ Q_{i} = \forall $, use complementation twice ($ \forall x_{i} \: \varphi_{i+1} = \neg \exists x_{i} \neg \varphi_{i+1} $)
 		}
 		
 		\vspace{.3cm}

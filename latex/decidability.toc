@@ -1,7 +1,7 @@
 \babel@toc {nil}{}
 \beamer@sectionintoc {1}{First-Order Logic}{4}{0}{1}
 \beamer@sectionintoc {2}{$ \text {Th}\left ( \mathbb {N}, + \right ) $ -- A Decidable Theory}{21}{0}{2}
-\beamer@sectionintoc {3}{$ \text {Th}\left ( \mathbb {N}, +, \times \right ) $ -- An Undecidable Theory}{39}{0}{3}
-\beamer@sectionintoc {4}{Gödel's Incompleteness Theorem}{54}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{61}{0}{5}
-\beamer@sectionintoc {6}{References}{65}{0}{6}
+\beamer@sectionintoc {3}{$ \text {Th}\left ( \mathbb {N}, +, \times \right ) $ -- An Undecidable Theory}{42}{0}{3}
+\beamer@sectionintoc {4}{Gödel's Incompleteness Theorem}{57}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{64}{0}{5}
+\beamer@sectionintoc {6}{References}{68}{0}{6}
