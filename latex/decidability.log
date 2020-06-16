@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  20 MAY 2020 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  16 JUN 2020 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1683,7 +1683,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 5.0pt on input line 164.
 
 Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
-[]  
+ [] 
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
@@ -1698,7 +1698,7 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 
 ]
 Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
-[]  
+ [] 
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
@@ -1713,7 +1713,7 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 
 ]
 Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
-[]  
+ [] 
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
@@ -1728,7 +1728,7 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 164.
 
 ]
 Overfull \hbox (24.0pt too wide) in paragraph at lines 164--164
-[]  
+ [] 
  []
 
 File: TU_Logo_SW.pdf Graphic file (type pdf)
@@ -1953,32 +1953,32 @@ Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 187.
  [23
 
 ]
-<addition.jpg, id=693, 700.86844pt x 529.22719pt>
-File: addition.jpg Graphic file (type jpg)
-<use addition.jpg>
-Package pdftex.def Info: addition.jpg  used on input line 194.
-(pdftex.def)             Requested size: 214.91417pt x 162.28215pt.
-
-Overfull \vbox (0.97276pt too high) detected at line 194
- []
-
-File: TU_Logo_SW.pdf Graphic file (type pdf)
-<use TU_Logo_SW.pdf>
-Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 194.
-(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
-File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
-<use DDC_Logo_110x50_4C.pdf>
-Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 194.
-(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
-[24
-
- <./addition.jpg>]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/bx/n' in size <10.95> not avail
 able
 (Font)              Font shape `T1/opensans-TLF/b/n' tried instead on input lin
-e 226.
+e 219.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 226.
+(Font)              scaled to size 10.95pt on input line 219.
+File: TU_Logo_SW.pdf Graphic file (type pdf)
+<use TU_Logo_SW.pdf>
+Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 219.
+(pdftex.def)             Requested size: 42.1242pt x 12.34045pt.
+File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
+<use DDC_Logo_110x50_4C.pdf>
+Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 219.
+(pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
+ [24
+
+]
+<addition.jpg, id=719, 700.86844pt x 529.22719pt>
+File: addition.jpg Graphic file (type jpg)
+<use addition.jpg>
+Package pdftex.def Info: addition.jpg  used on input line 226.
+(pdftex.def)             Requested size: 214.91417pt x 162.28215pt.
+
+Overfull \vbox (0.97276pt too high) detected at line 226
+ []
+
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 226.
@@ -1987,9 +1987,9 @@ File: DDC_Logo_110x50_4C.pdf Graphic file (type pdf)
 <use DDC_Logo_110x50_4C.pdf>
 Package pdftex.def Info: DDC_Logo_110x50_4C.pdf  used on input line 226.
 (pdftex.def)             Requested size: 30.00471pt x 13.65703pt.
- [25
+[25
 
-]
+ <./addition.jpg>]
 File: TU_Logo_SW.pdf Graphic file (type pdf)
 <use TU_Logo_SW.pdf>
 Package pdftex.def Info: TU_Logo_SW.pdf  used on input line 255.
@@ -2915,11 +2915,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 27329 strings out of 492167
- 515159 string characters out of 6131559
+ 27330 strings out of 492167
+ 515190 string characters out of 6131559
  632888 words of memory out of 5000000
  30921 multiletter control sequences out of 15000+600000
- 35021 words of font info for 109 fonts, out of 8000000 for 9000
+ 35413 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,96p,809b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{ref:theolog} has been referenced but does not exi
@@ -2940,7 +2940,7 @@ re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/
 fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
 per/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on decidability.pdf (69 pages, 1500460 bytes).
+Output written on decidability.pdf (69 pages, 1501322 bytes).
 PDF statistics:
  2040 PDF objects out of 2073 (max. 8388607)
  1896 compressed objects within 19 object streams

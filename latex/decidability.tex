@@ -105,21 +105,21 @@
 			\]
 		}
 		
-		\only<5>{
+		\only<6>{
 			\vspace{-.3cm}
 			\[	
 				\text{vs. } \: [(x + x = y) \: \vee \: (x \geq y) ]
 			\]
 		}
 		
-		\only<6>{
+		\only<7>{
 			\vspace{-.3cm}
 			\[	
 				\text{vs. } \: \forall y \: \exists x \: \: [\neg (xx \neq y)]
 			\]
 		}
 	
-		\only<7>{\centering$ = \:\:$ "There are infinitely many prime numbers."}
+		\visible<5>{\centering$ = \:\:$ "There are infinitely many prime numbers."}
 		
 		\vspace{.25cm}
 		\only<3->{\noindent\rule[.25ex]{\textwidth}{.3pt}}
@@ -133,8 +133,8 @@
 							\item here $ \mathbb{N} $
 						\end{itemize}
 					}
-				\only<1-4>{\end{itemize}&}
-				\only<4>{\begin{itemize}}
+				\only<1-5>{\end{itemize}&}
+				\only<4,5>{\begin{itemize}}
 					\only<4->{\item \emph{model} $ \mathcal{M} $
 						\begin{itemize}
 							\item universe + assignment of relations
@@ -143,16 +143,16 @@
 					\end{itemize}
 					}
 			}
-			\only<5->{
+			\only<6->{
 				&
 				\begin{itemize}
-					\only<5->{\item \emph{language} $ \lang{\mathcal{M}} $
+					\only<6->{\item \emph{language} $ \lang{\mathcal{M}} $
 						\begin{itemize}
 							\item sentences that make sense in $ \mathcal{M} $
 							\item here $ \lang{\mathbb{N},\: >_{2},\: (\times \neq)_{3}} $
 						\end{itemize}
 					}
-					\only<6->{\item \emph{theory} $ \theory{\mathcal{M}} $
+					\only<7->{\item \emph{theory} $ \theory{\mathcal{M}} $
 						\begin{itemize}
 							\item true sentences formed with $ \mathcal{M} $
 							\item here $ \theory{\mathbb{N},\: >_{2},\: (\times \neq)_{3}} $
@@ -186,13 +186,6 @@
 		\uncover<2->{i.e., there is an algorithm that can decide,\\ whether a sentence $ \varphi \in \lang{\mathbb{N}, +} $ is true or false.}
 	\end{frame}
 
-	\begin{frame}{Review: Automata}
-		\begin{figure}
-			\includegraphics[width=.55\linewidth]{addition}
-			\caption{Example automaton that accepts all correct binary additions}
-		\end{figure}
-	\end{frame}
-
 	\begin{frame}{Proof of Theorem 1}
 		\textbf{Idea: } Construct an automaton that accepts an (almost) empty input iff the given sentence is true.
 		\vspace{.5cm}
@@ -223,6 +216,13 @@
 				6
 			\end{pmatrix}
 		\]
+	\end{frame}
+
+	\begin{frame}{Review: Automata}
+		\begin{figure}
+			\includegraphics[width=.55\linewidth]{addition}
+			\caption{Example automaton that accepts $ +_{3} $ encoded in $ \Sigma_{3} $}
+		\end{figure}
 	\end{frame}
 
 	\begin{frame}{Proof of Theorem 1}
