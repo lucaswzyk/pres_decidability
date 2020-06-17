@@ -22,8 +22,43 @@ slide 7
         - not all states must have all transitions
         - empty word can be transition character
         
-slide 11
+slide 10
     - "(almost)" because () will act as an empty input vector
+    - let's review automata:
+        - formally introduce -> quite a bit of work, worth your while
+        - here: basic concept
+    
+slide 11
+    - "state machines"
+    - (finite) number of states: q_0, ..., q_3
+    - machine occupies exactly one state
+    - transitions, labeled with characters: 
+        -> you are in a state (q_0)
+        -> read character (0,0,0) 
+        -> move along corresponding transition (land in q_1)
+    - issues with expression "automaton reads character" 
+        - from where? who inputs?
+        - abstractly: ex. word, automaton moves along c by c from left to right
+    - clue: label states as special ("final states")
+        - which words take us from q_0 to q_1 ("accepted words")
+        - structure of automaton distinguishes
+        - this is designed to accept valid add. of |N enc. in S_3
+            - (0,0,0) valid
+            - (0,0,1) carry bit
+            - (1,0,0) incorrect
+            
+slide 13:
+    - important: anything we said so far can be mechanized, does not require thinking
+    - there are rules:
+        - will not write them down (time / no use for concept)
+        - algorithm (= set of rules) can construct A_l from phi_l symbolically
+        
+slide 14:
+    - copy A_l
+    - new starting state, for each character in S_{l-1} add another state (see what that does in a second)
+    - quantified last variable
+        -> only l-1 natural numbers to plug in
+        -> want A_{l-1} to behave like phi_{l-1} = accept l-1 natural numbers if there is another natural number which you can plug in for the quantified variable so that the formula becomes true
 
 slide 17
     - terminology (basically an automaton with an additional band for reading / writing)
