@@ -44,7 +44,7 @@
 		\Huge \centering Can we mechanize \\mathematics?
 	\end{frame}
 
-	\frame{\frametitle{Inhalt}\tableofcontents}
+	\frame{\frametitle{Content}\tableofcontents}
 	
 	\section{First-Order Logic}
 	\begin{frame}{Syntax}
@@ -381,7 +381,7 @@
 						\item to a formula $ \varphi_{M, w}(x) \in \lang{\mathbb{N}, +, \times} $ that contains only one free variable $ x $, such that
 					}
 					\visible<4->{
-						\item $ \exists x \: [\varphi_{M, w}(x)] $ is true $ \: \Leftrightarrow \: M $ accepts $ w $ \:\:($ x = $ computation history suitably encoded)
+						\item $ \varphi_{M, w}(x) $ is true $ \: \Leftrightarrow \: M $ accepts $ w $ \:\:($ x = $ computation history suitably encoded)
 					}
 				\end{itemize}
 			}
@@ -391,7 +391,7 @@
 		\visible<5->{
 			Assume $ \theory{\mathbb{N}, +, \times} $ is decidable.
 		
-			$ \Longrightarrow \quad $ The formulas $ \exists x \: [\varphi_{M, w}(x)] \in \theory{\mathbb{N}, +, \times} $ are decidable.
+			$ \Longrightarrow \quad $ The formulas $ \exists x \: [\varphi_{M, w}(x)] \in \lang{\mathbb{N}, +, \times} $ are decidable.
 		}
 	
 		\visible<6->{
